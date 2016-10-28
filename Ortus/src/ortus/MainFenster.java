@@ -43,6 +43,7 @@ public class MainFenster extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocationByPlatform(true);
         setResizable(false);
 
         jButton1.setText("START");
